@@ -1,0 +1,32 @@
+.card{
+  border: 0px;
+  background-color: bisque;
+ text-align: center;
+
+}
+.card img{
+  object-fit: fill;
+  width: 250px;
+height: 350px;
+
+}
+
+.body{
+  background-color: bisque;
+}
+.form{
+  margin-left: 800px;
+}
+
+
+ @media all and (max-width: 1400px) { 
+  .form{
+    margin-left: 300px;
+  }
+ }
+@media all and (max-width: 990px) { 
+
+  .form{
+    margin-left: 0px;
+  }
+ }
